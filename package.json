@@ -1,0 +1,16 @@
+{
+  "name": "jest-example",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "istanbul": "^0.3.0",
+    "jest-cli": "^0.1.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
