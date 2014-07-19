@@ -12,5 +12,10 @@
     "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "jest": {
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/istanbul"
+    ],
+  }
 }
