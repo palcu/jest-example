@@ -7,15 +7,15 @@
     "istanbul": "^0.3.0",
     "jest-cli": "^0.1.17"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jasmine-reporters": "^1.0.0"
+  },
   "scripts": {
     "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "jest": {
-    "unmockedModulePathPatterns": [
-      "<rootDir>/node_modules/istanbul"
-    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/setup-jasmine-env.js"
   }
 }
