@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="sum" errors="0" tests="1" failures="0" time="0.006" timestamp="2014-08-26T16:31:55">
+  <testcase classname="sum" name="adds 1 + 2 to equal 3" time="0.005"></testcase>
+</testsuite>
+</testsuites>
