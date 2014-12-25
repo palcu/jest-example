@@ -5,3 +5,7 @@ This is a sample repo that contains the [getting started](http://facebook.github
 The problem is that Jest mocks everything by default and you have to [unmock](https://github.com/palcu/jest-example/blob/master/__tests__/sum-test.js) `fs` and `path`. Also you have to take care and use the `1.0.0` [version](https://github.com/palcu/jest-example/blob/master/package.json#L11) of `jasmine-reporters` because Jest is build on Jasmine 1.3
 
 Finally, don't forget to create the `output` folder before running `jest` and initialise `jasmine-reporters` with the [right syntax](https://github.com/palcu/jest-example/blob/master/setup-jasmine-env.js#L10-L11)
+
+# Code coverage
+
+I've also added code coverage after an [answer on StackOverflow](http://stackoverflow.com/questions/24825860/code-coverage-for-jest/27479903#27479903).
