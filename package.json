@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "istanbul": "^0.3.0",
-    "jest-cli": "^0.1.17"
+    "jest-cli": "git://github.com/hankhsiao/jest.git"
   },
   "devDependencies": {
     "jasmine-reporters": "^1.0.0"
@@ -16,6 +16,8 @@
   "author": "",
   "license": "ISC",
   "jest": {
+    "collectCoverage": true,
+    "coverageFormats": ["json", "html"],
     "setupTestFrameworkScriptFile": "<rootDir>/setup-jasmine-env.js"
   }
 }
